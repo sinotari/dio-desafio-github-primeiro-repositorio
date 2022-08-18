@@ -1,5 +1,51 @@
+Termos GIT:
+
+-Untracked: arquivos que o Git não tem ciência deles.
+-Tracked: arquivos que o Git tem ciência deles.
+-Unmodified: arquivos que não foram modificados
+-Staged: lugar onde os arquivos ficam se preparando para fazer parte de um outro agrupamento
+	(quando damos o comando 'git add .' os arquivos são movidos para a área de stage)
+-Snapchot: criar uma "foto" do código após um commit
+-origin: é um alias (apelido)
+
 Comandos GIT:
 
 git init: cria pasta .git e inicializa um repoitório local
 
+git commit -m "texto": envelopa os arquivos com comentários sobre as modificações
+	(vai para o repositório local)
+	(tudo o que está no repositório local tem que estar commitado senão não conseguimos enviar para o repositório remoto)
+
+echo > READ.md: cria uma arquivo para anotações do tipo markdown
+
 git config --list: analisa o usuário que está cadastrado
+
+git config --global --unset user.email: altera email cadastrado no repositório local
+
+git .gitignore: ignora arquivos não importantes para mergear
+
+git config --global --unset nickname: altera nickname cadastrado no repositório local
+
+git config --global  user.email "email@gmail.com": seta novo email
+
+git config --global nickname: seta novo nickname
+
+git remote add origin https://github..git: adiciona a origem de onde estamos empurrando o arquivo para identificar o repositório remoto
+
+git remove -v: lista os repositórios remotos
+
+git status: mostra situação atual das modificações no repositório
+
+git push origin master (ou main): sobe o repositório no GitHub
+
+git pull origin master (ou main): puxa o repositório atualizado
+
+git clone https://github..git: clona o repositório remoto para a máquina local criando um repositório local
+
+git add .  ou git *: adiciona as alterações e modificações para stage
+
+
+
+
+
+
