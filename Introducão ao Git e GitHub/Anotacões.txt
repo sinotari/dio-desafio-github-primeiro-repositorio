@@ -1,0 +1,5 @@
+Comandos GIT:
+
+git init: cria pasta .git e inicializa um repoitório local
+
+git config --list: analisa o usuário que está cadastrado
